@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.date{
+    text-align: center;
+}
+
+/* Navigation Style */
+.top{
+    margin: 10px auto;
+    width: 80%;
+}
+header {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: aliceblue;
+   
+
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    background: antiquewhite;
+    justify-content: space-evenly;
+    width: 760px;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 8px;
+    
+    
+}
+.navbar li{
+    padding: 10px;
+}
+.navbar li:hover{
+    cursor: pointer;
+    color: rgb(250, 143, 2);
+}
+
+.logo {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px 8px;
+    background: black;
+    width:370px;
+    font-size: 36px;
+    align-items: center;
+    
+    
+    border-radius: 8px;
+    
+}
+
+.logoName {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 1px #3e1dff;
+   
+}
+
+.logo img {
+    height: auto;
+    border-radius: 50%;
+    width: 70px;
+    border: 1px solid #3e1dff;
+}
+
+/* news section */
+.today{
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    row-gap: 20px;
+    
+    
+
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px 1px rgb(248, 190, 114);
+    padding: 10px;
+    
+    background-color: #efdcdc;
+
+}
+.text-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: #890dd7;
+    margin: 8px 0px;
+}
+.text-context{
+    font-size: 20px;
+    color: #c30606;
+    margin: 2px 0px;
+}
+.text-highlight{
+    font-size: 16px;
+}
